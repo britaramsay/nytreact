@@ -24,4 +24,4 @@ yarn-error.log*
 ./client/.env
 .env
 
-/client/src/components\Home.js
+/client/src/components/Home.js
