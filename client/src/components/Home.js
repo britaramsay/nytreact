@@ -23,7 +23,7 @@ class Home extends Component {
     e.preventDefault()
 
     var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=";
-    queryURL += process.env.REACT_APP_NYT_API_KEY;
+    queryURL += '376d5eaeb1ce41bda70f991ad3a0f962';
     queryURL += "&q=" + this.state.query;
     
     console.log(queryURL)
