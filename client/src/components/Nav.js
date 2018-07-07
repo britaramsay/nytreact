@@ -8,10 +8,10 @@ class Nav extends Component {
             <nav className="navbar">
                 <ul className="nav justify-content-center">
                     <li className="nav-item">
-                        <Link to="/" id="homeLink"><h4>Home</h4></Link>
+                        <Link className="nav-link" to="/" id="homeLink"><h4>Home</h4></Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/saved" id="savedLink"><h4>Saved</h4></Link>
+                        <Link className="nav-link" to="/saved" id="savedLink"><h4>Saved</h4></Link>
                     </li>
                 </ul>
             </nav>

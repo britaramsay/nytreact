@@ -41,22 +41,10 @@
   text-shadow: 1px 1px 3px #00eeff;
 }
 
-#homeLink {
-  padding-right: 5px
-}
-
-#savedLink {
-  padding: 5px
-}
-/* 
-.headline {
-  float: right;
-}
-
-.save {
-  float: left
-} */
-
 .navbar {
   text-align: center
+}
+
+form {
+  margin-bottom: 10px;
 }

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import '../App.css';
 import API from '../utils/API.js'
-const axios = require('axios')
 
 class Saved extends Component {
     constructor() {
@@ -16,13 +15,10 @@ class Saved extends Component {
     componentDidMount = () => {
       API.getArticles()
         .then(res => {
-          console.log(res.data)
           this.setState({ results: res.data })
-          // console.log(this.state.results)
           this.resultList()
         })
         .catch(err => console.log(err))
-
     }
   
     resultList = () => {
