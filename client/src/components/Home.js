@@ -88,6 +88,8 @@ class Home extends Component {
       date: item.date,
       url: item.url
     })
+      .then(res => alert('article saved.'))
+      .catch(err => console.log(err))
   }
 
   render () {  
